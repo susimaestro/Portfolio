@@ -1,0 +1,268 @@
+html{
+    box-sizing: border-box;
+
+}
+
+*, *:before, *::after {
+    box-sizing: inherit;
+
+}
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .firstProject {
+
+        color: black;
+        font-family: 'Jost','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        line-height: 30px;
+        background-color:#F7A3D7;
+        
+    }
+
+    .tiffinpic {
+        width:1280px;
+
+    }
+   
+
+    .secondProject {
+
+        color:#0B0466;
+        text-align: center;
+        line-height: 30px;
+        font-family: 'Jost','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width:720px;
+        padding:50px;
+        left:300px;
+
+    
+
+    }
+
+    .thirdProject {
+
+    color:white;
+    background-color: black;
+    font-family: 'Jost','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    line-height: 30px;
+    }
+
+    .netflixpic {
+        width:1280px;
+
+
+    }
+    a {
+        text-decoration:none;
+        font-family: 'Jost','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        font-stretch: extra-expanded;
+        color:white;
+    
+    }
+
+   
+    
+    header {
+        font-family: 'Jost','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 30px;
+        font-stretch: ultra-expanded;
+        font-weight: lighter;
+        
+    }
+
+    h1 {
+        font-family: 'Jost','Gill Sans', Calibri;
+        font-stretch: ultra-expanded; 
+        padding-bottom: 20px;    
+        }
+
+
+
+    .name {
+        font-style: strong;
+    }
+
+
+
+    .about{
+        color:white;
+    }
+    
+   
+    button {
+        position:absolute;
+        top: 450px;
+        color:white;
+        background-color: black;
+        border-radius: 50px;
+        left: 630px;
+        border: none;
+        width:200px;
+        height:50px;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Jost','Gill Sans';
+        border-bottom: 20px grey;
+        border-right: 20px grey;
+
+
+        
+    }
+
+    button:hover {
+       color:white ;
+       background-color: #9E7A9C;
+      }
+
+
+    .hi {
+        
+        font-family:'Vidaloka','Gill Sans';
+        color: #2E294D;
+        position:absolute;
+        top:140px;
+        left:500px;
+        font-size:90px;
+
+
+    }
+    .hi:hover {
+        font-size:160px;
+        left:360px;
+        top:80px;
+        transition-timing-function: ease-in-out;
+      }
+    
+    .im {
+        font-family:'Vidaloka', 'Gill Sans';
+        color:#4C4F7C;
+        font-size:40px;
+        position:absolute;
+        left:650px;
+        top:185px;
+    }
+    .im:hover{
+        font-size:50px;
+        top:185px;
+        left:650px;
+    }
+
+    .ux{
+        font-family:'Vidaloka', 'Gill Sans';
+        color:#4C4F7C;
+        font-size:26px;
+        position:absolute;
+        left:600px;
+        top:250px;
+    }
+    .ux:hover{
+        font-size:36px;
+        left:600px;
+        top:250px;
+    }
+
+
+    .to{
+        font-family:'Vidaloka', 'Gill Sans';
+        color:#4C4F7C;
+        font-size:26px;
+        position:absolute;
+        left:620px;
+        top:300px;
+    }
+
+    .to:hover{
+        font-size:36px;
+        left:620px;
+        top:300px;
+    }
+
+    .design{
+        font-family:'Vidaloka', 'Gill Sans';
+        color:#4C4F7C;
+        font-size:26px;
+        position:absolute;
+        left:630px;
+        top:350px;
+    }
+
+    .design:hover{
+        font-size:36px;
+        left:630px;
+        top:350px;
+    }
+
+    .foodgif {
+        position:absolute;
+        left: 760px;
+        top: 930px;
+        height:230px;
+        width:110px;
+    }
+
+
+    .tiffingif {
+        position:absolute;
+        left:750px;
+        top: 820px;
+        height:300px;
+        width:500px;
+
+   }
+
+    footer {
+        color:white;
+        background-color: black;
+        font-family: 'Jost','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding:20px;
+        }
+
+        *{
+            margin:0;
+        }
+    .londonpic {
+        width:1280px;
+    }
+
+    .tiffinheader:hover {
+        color:#9E7A9C;
+    }
+
+    .netflixheader:hover {
+        color:red;
+    }
+
+    .coffeeheader:hover {
+        color:fuchsia;
+    }
+
+    .black{
+        width:1280px;
+        height:150px;
+        position:absolute;
+        background-color:black;
+        top:2060px;
+
+    }
+   
+   
+    
+
+    @media screen and (max-width: 1040px) {
+        body{
+         
+        header {
+                font-family: 'Jost','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 20px;
+                font-stretch: ultra-expanded;
+                font-weight: lighter;
+
+        
+    }
+
